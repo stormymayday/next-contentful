@@ -1,7 +1,11 @@
+import Hero from "@/components/Hero";
+import Projects from "@/components/Projects";
+
 export default function Home() {
     return (
         <main>
-            <h1>Next & Contentful</h1>
+            <Hero />
+            <Projects />
         </main>
     );
 }
